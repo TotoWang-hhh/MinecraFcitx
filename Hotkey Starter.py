@@ -1,5 +1,5 @@
 raise NotImplementedError
-# [BUG] Once root permittion is given to this script, it can only execute the main script with root permittion, 
+# [BUG] Once root permission is given to this script, it can only execute the main script with root permittion, 
 #       which finally causes the Fcitx not working. For this I added a NotImplementedError at the head of this file
 #       to stop users executing it.
 
